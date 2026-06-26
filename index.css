@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+    align-items: center;
+}
+
+body {
+	margin: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5;
+	color: #0f172a;
+	background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+	min-height: 100vh;
+}
+
+.page {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 1.25rem;
+}
+
+h1 {
+	margin: 0 0 1rem;
+	color: #0b3a2e;
+}
+
+.video-section {
+	margin: 0;
+	display: grid;
+	gap: 0.75rem;
+}
+
+.video-player {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 0.75rem;
+	background: #000;
+    height: 80vh;
+
+}
+
+figcaption {
+	font-size: 1rem;
+	max-width: 70ch;
+}
+
+button {
+	margin-top: 1rem;
+	padding: 0.65rem 1rem;
+	border-radius: 0.6rem;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #ffffff;
+	background: black;
+}
+
+button:hover {
+	background: #14532d;
+}
+
+
+
+@media (max-height: 600px) {
+	.page {
+		padding: 1rem;
+	}
+
+	button {
+		width: 100%;
+	}
+}
+
